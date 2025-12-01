@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /api/
+Disallow: /tmp/
+
+Sitemap: https://sivishaindustries.com/sitemap.xml
