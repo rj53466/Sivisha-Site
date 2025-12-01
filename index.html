@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sivisha Industries Private Limited</title>
+  <meta
+    name="description"
+    content="Sivisha Industries Private Limited – Building the future of healthcare, where innovation meets well-being."
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-inner">
+      <div class="brand">
+        <div class="brand-logo">
+          <img
+            src="assets/logo.jpeg"
+            alt="Sivisha Industries Logo"
+            style="width:100%; height:auto; border-radius:70%;"
+          />
+        </div>
+
+        <div class="brand-text">
+          <div class="brand-name">Sivisha Industries</div>
+          <div class="brand-sub">Private Limited</div>
+        </div>
+      </div>
+
+      <button
+        class="nav-toggle"
+        aria-label="Toggle navigation"
+        id="navToggle"
+        aria-expanded="false"
+        type="button"
+      >
+        ☰
+      </button>
+
+      <nav id="mainNav">
+        <ul>
+          <li><a href="#hero">Overview</a></li>
+          <li><a href="#moa">MOA</a></li>
+          <li><a href="#verticals">Verticals</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <button
+              class="nav-cta"
+              type="button"
+              onclick="scrollToSection('contact')"
+            >
+              Partner / Investor Enquiry
+              <span>↗</span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero reveal" id="hero">
+      <!-- Background video (behind everything) -->
+      <video class="hero-bg-video" autoplay muted loop playsinline preload="metadata" >
+        <source src="assets/bg-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    
+      <!-- LEFT: Text content -->
+      <div class="hero-text">
+        <div class="hero-pill">
+          <span class="hero-pill-dot"></span>
+          <span>Building the future of healthcare</span>
+        </div>
+    
+        <h1>
+          Where <span>innovation meets well-being</span>
+        </h1>
+    
+        <p class="hero-lead">
+          Sivisha Industries Private Limited is envisioned as an integrated healthcare enterprise – from pharmacies and
+          pharmaceutical manufacturing to cosmetics, hospitals, and research-led initiatives that support modern, ethical
+          healthcare.
+        </p>
+    
+        <div class="hero-badges">
+          <div class="hero-badge">
+            <span class="badge-icon">Rx</span>
+            <span>Retail pharmacies &amp; healthcare products</span>
+          </div>
+          <div class="hero-badge">
+            <span class="badge-icon">🏭</span>
+            <span>Dedicated plants for drugs &amp; formulations</span>
+          </div>
+          <div class="hero-badge">
+            <span class="badge-icon">🏥</span>
+            <span>Hospitals, clinics &amp; diagnostic services</span>
+          </div>
+        </div>
+    
+        <div class="hero-actions">
+          <button
+            class="btn-primary"
+            type="button"
+            onclick="scrollToSection('verticals')"
+          >
+            Explore core business areas
+            <span>➜</span>
+          </button>
+          <button
+            class="btn-outline"
+            type="button"
+            onclick="scrollToSection('moa')"
+          >
+            View MOA snapshot
+          </button>
+        </div>
+    
+        <div class="hero-meta">
+          <div>
+            <strong>Healthcare-first vision</strong>
+            <p>
+              From the pharmacy counter to clinical care – a unified, future-ready healthcare platform.
+            </p>
+          </div>
+          <div>
+            <strong>Governance &amp; compliance</strong>
+            <p>
+              Designed with quality, safety and regulatory adherence at the core of every vertical.
+            </p>
+          </div>
+        </div>
+      </div>
+    
+      <!-- RIGHT: Existing hero visual / slider -->
+      <aside class="hero-visual">
+        <div
+          class="hero-visual-card hero-slider"
+          aria-label="Pharmaceutical and hospital themed slideshow"
+        >
+          <div class="hero-slide active">
+            <img
+              src="assets/pharma-hero-1.jpg"
+              alt="Pharmaceutical supplies and medicines"
+              loading="lazy"
+            />
+          </div>
+    
+          <div class="hero-slide">
+            <img
+              src="assets/pharma-hero-2.jpg"
+              alt="Laboratory and pharmaceutical research"
+              loading="lazy"
+            />
+          </div>
+    
+          <div class="hero-slide">
+            <img
+              src="assets/hospital-hero-1.jpg"
+              alt="Modern hospital and clinical care"
+              loading="lazy"
+            />
+          </div>
+    
+          <div class="hero-slider-indicators">
+            <button
+              class="hero-dot active"
+              type="button"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              class="hero-dot"
+              type="button"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              class="hero-dot"
+              type="button"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+        </div>
+      </aside>
+    </section>  
+
+    <section class="section reveal" id="moa">
+      <div class="section-header">
+        <p class="section-kicker">Memorandum of Association</p>
+        <h2>Core objects of Sivisha Industries</h2>
+      </div>
+
+      <ol class="moa-list">
+        <li>
+          To carry on the business of retail pharmacies for sale and distribution of medicines, medical devices, and
+          healthcare products.
+        </li>
+        <li>
+          To establish and operate pharmaceutical manufacturing plants for drugs, formulations, and allied products.
+        </li>
+        <li>
+          To manufacture and retail cosmetic and personal care products through dedicated plants and outlets.
+        </li>
+        <li>
+          To establish and manage hospitals, clinics, diagnostic and healthcare service facilities.
+        </li>
+        <li>
+          To undertake related research, development, import, export, and other allied activities supporting the above
+          businesses.
+        </li>
+      </ol>
+    </section>
+
+    <section class="section reveal" id="verticals">
+      <div class="section-header">
+        <p class="section-kicker">Business Verticals</p>
+        <h2>Integrated healthcare &amp; wellness ecosystem</h2>
+        <p class="section-sub">
+          Sivisha brings together pharmaceuticals, consumer wellness, care delivery and research to create a single,
+          strong healthcare platform.
+        </p>
+      </div>
+
+      <div class="vertical-grid">
+        <article class="card reveal-child">
+          <div class="card-top">
+            <div class="card-icon">🩺</div>
+            <span class="card-soon">Coming soon</span>
+          </div>
+        
+          <h3>Retail Pharmacies</h3>
+          <p>
+            Pharmacy chains focused on safe, ethical, and high-quality distribution of medicines, devices, and
+            healthcare products.
+          </p>
+          <span class="card-tag">Pharmacy Network</span>
+        </article>
+        
+
+        <article class="card reveal-child">
+          <div class="card-top">
+          <div class="card-icon">🏭</div>
+          <span class="card-soon">Coming soon</span>
+        </div>
+          <h3>Pharma Manufacturing</h3>
+          <p>
+            Plants for drugs and formulations with robust quality systems and regulatory compliance for domestic and
+            export markets.
+          </p>
+          <span class="card-tag">Drugs &amp; Formulations</span>
+        </article>
+
+        <article class="card reveal-child">
+          <div class="card-top">
+          <div class="card-icon">💄</div>
+          <span class="card-soon">Coming soon</span>
+        </div>
+          <h3>Cosmetics &amp; Personal Care</h3>
+          <p>
+            Dedicated units for cosmetic and personal care products, supported by retail and specialist distribution
+            channels.
+          </p>
+          <span class="card-tag">Beauty &amp; Wellness</span>
+        </article>
+
+        <article class="card reveal-child">
+          <div class="card-top">
+          <div class="card-icon">🏥</div>
+          <span class="card-soon">Coming soon</span>
+        </div>
+          <h3>Hospitals &amp; Clinics</h3>
+          <p>
+            Establishment and management of hospitals, day-care centres, clinics and diagnostics for end-to-end care.
+          </p>
+          <span class="card-tag">Care Delivery</span>
+        </article>
+
+        <article class="card reveal-child">
+          <div class="card-top">
+          <div class="card-icon">🔬</div>
+          <span class="card-soon">Coming soon</span>
+        </div>
+          <h3>R&amp;D &amp; Innovation</h3>
+          <p>
+            Research initiatives and collaborations across pharmaceuticals, devices, cosmetics, and healthcare models.
+          </p>
+          <span class="card-tag">Innovation</span>
+        </article>
+
+        <article class="card reveal-child">
+          <div class="card-top">
+          <div class="card-icon">🌐</div>
+          <span class="card-soon">Coming soon</span>
+        </div>
+          <h3>Import, Export &amp; Allied</h3>
+          <p>
+            Global and domestic supply chain linkages, allied services, and partnerships supporting the core business
+            lines.
+          </p>
+          <span class="card-tag">Allied Services</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="founder">
+      <div class="section-header">
+        <p class="section-kicker">Leadership</p>
+        <h2>Founder &amp; CEO Message</h2>
+        <p class="section-sub">
+          A brief note from the founder of Sivisha Industries Private Limited.
+        </p>
+      </div>
+
+      <div class="founder-pill reveal-child">
+        <div class="founder-photo-wrap">
+          <img
+            src="assets/founder.jpg"
+            alt="Shashank Reddy, Founder &amp; CEO of Sivisha Industries Private Limited"
+            class="founder-photo"
+            loading="lazy"
+          />
+          <div class="founder-photo-label">Founder &amp; CEO</div>
+        </div>
+
+        <div class="founder-text" style="margin-top: 0.2rem;">
+          <h3 class="founder-name">Shashank Reddy</h3>
+          <p class="founder-message">
+            SHASHANK REDDY is the Founder &amp; CEO of SIVISHA Industries Private Limited, leading a fast-growing
+            company in healthcare, pharmacy retail, pharmaceutical manufacturing, cosmetic development, and hospital
+            projects. With a strong focus on innovation, branding, and operational excellence, he is building an integrated
+            healthcare ecosystem designed to deliver quality and trust. Known for his strategic vision and disciplined
+            leadership, he is shaping SIVISHA Industries into a modern, consumer-focused brand with a strong national
+            presence.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="contact">
+      <div class="section-header">
+        <p class="section-kicker">Contact</p>
+        <h2>Connect with Sivisha Industries</h2>
+      </div>
+
+      <div class="contact-grid">
+        <div>
+          <form id="contactForm" action="https://formsubmit.co/contactus@sivishaindustries.com" method="POST" novalidate>
+            <!-- FormSubmit configuration fields -->
+            <input type="hidden" name="_subject" value="New enquiry — Sivisha Industries" />
+            <input type="hidden" name="_template" value="table" />
+            <!-- until you add Google reCAPTCHA; then you can switch to true / remove -->
+            <input type="hidden" name="_captcha" value="false" />
+            <!-- simple honeypot field (bots will fill it, real users won’t) -->
+            <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="name">Full name *</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    maxlength="120"
+                    autocomplete="name"
+                    required
+                    placeholder="Enter your full name"
+                  />
+                  <p class="field-hint">Only letters, numbers, spaces, and basic punctuation allowed.</p>
+                </div>
+                <div class="form-field">
+                  <label for="email">Email *</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    maxlength="160"
+                    autocomplete="email"
+                    required
+                    placeholder="you@example.com"
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="phone">Phone (with country code)</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    maxlength="20"
+                    autocomplete="tel"
+                    placeholder="+91-XXXXXXXXXX"
+                  />
+                  <p class="field-hint">Digits, spaces, plus (+) and dashes (-) only.</p>
+                </div>
+                <div class="form-field">
+                  <label for="type">I am contacting as *</label>
+                  <select id="type" name="type" required>
+                    <option value="">Select one</option>
+                    <option value="investor">Investor / Financial partner</option>
+                    <option value="supplier">Supplier / Manufacturer</option>
+                    <option value="healthcare">Hospital / Healthcare partner</option>
+                    <option value="professional">Professional / Consultant</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label for="message">Brief enquiry details *</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  maxlength="2000"
+                  required
+                  placeholder="Share a concise overview of your enquiry."
+                ></textarea>
+              </div>
+
+              <button class="btn-primary form-submit" type="submit">
+                Submit secure enquiry
+                <span>➜</span>
+              </button>
+              <p id="formStatus" class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+        <div class="contact-info">
+          <div class="contact-block">
+            <h3>Corporate Address</h3>
+            <p>
+              Replace this placeholder with the final registered office and corporate address details once incorporation
+              is complete.
+            </p>
+          </div>
+
+          <div class="contact-block">
+            <h3>Primary contact</h3>
+            <p>
+              Email: <span class="mono">contactus@sivishaindustries.com</span><br />
+              Phone: <span class="mono">+91-XXXXXXXXXX</span>
+            </p>
+          </div>
+
+          <div class="contact-block">
+            <h3>Security &amp; compliance note</h3>
+            <p>
+              This public website is intended for general information and initial contact only. Do not share confidential
+              medical information, login credentials, or financial data through this form. Always use secure,
+              authenticated channels for such information.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      © <span id="year"></span> Sivisha Industries Private Limited. All rights reserved.
+    </p>
+    <div class="footer-links">
+      <a href="#hero">Overview</a>
+      <a href="#moa">MOA</a>
+      <a href="#verticals">Verticals</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top" type="button">
+    ↑
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
